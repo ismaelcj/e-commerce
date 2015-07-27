@@ -122,6 +122,11 @@ msgid "Payment Term"
 msgstr "Plazo de pago"
 
 #. module: sale_payment_method
+#: field:payment.method,payment_type_id:0
+msgid "Payment Type"
+msgstr "Tipo de pago"
+
+#. module: sale_payment_method
 #: view:sale.order:0
 msgid "Create Invoice"
 msgstr "Crear Factura"
