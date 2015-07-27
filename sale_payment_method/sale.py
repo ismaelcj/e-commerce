@@ -264,6 +264,7 @@ class sale_order(orm.Model):
 
     def onchange_payment_method_id(self, cr, uid, ids, payment_method_id,
                                    context=None):
+        print "onchange 2"
         if not payment_method_id:
             return {}
         result = {}

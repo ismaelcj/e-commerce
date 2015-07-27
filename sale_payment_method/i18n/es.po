@@ -119,7 +119,7 @@ msgstr "Forma de pago por defecto de un pedido de venta usado por este método."
 #. module: sale_payment_method
 #: field:payment.method,payment_term_id:0
 msgid "Payment Term"
-msgstr "Modo de pago"
+msgstr "Plazo de pago"
 
 #. module: sale_payment_method
 #: view:sale.order:0
