@@ -34,6 +34,7 @@
                     </group>
                     <group string="Default Values">
                         <field name="payment_term_id" />
+                        <field name="payment_type_id" />
                     </group>
                 </form>
             </field>

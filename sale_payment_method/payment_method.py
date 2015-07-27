@@ -45,6 +45,10 @@ class payment_method(orm.Model):
             'res.company',
             'Company',
         ),
+        'payment_type_id': fields.many2one(
+            'payment.type',
+            'Payment Type',
+            help="Default payment type of a sale order using this method."),
     }
 
     def _default_company_id(self, cr, uid, context):
