@@ -39,6 +39,7 @@ payments entries on sales orders.
     'author': "Akretion,Odoo Community Association (OCA)",
     'website': 'http://www.akretion.com/',
     'depends': ['sale',
+                'sale_payment',
                 ],
     'data': ['sale_view.xml',
              'payment_method_view.xml',
